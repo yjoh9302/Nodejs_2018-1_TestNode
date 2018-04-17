@@ -1,3 +1,3 @@
 git add --all
-git commit -m "first commit"
+git commit -m "test commit"
 git push -u origin master
