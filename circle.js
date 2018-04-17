@@ -7,3 +7,4 @@ exports.area = function (r) {
 exports.circum = function (r) {
     return 2*PI*r;
 }
+exports.pi = PI;
