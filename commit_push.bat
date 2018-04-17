@@ -1,3 +1,3 @@
 git add --all
-git commit -m " #2 nodejs server"
+git commit -m " comp nodejs server"
 git push -u origin master
