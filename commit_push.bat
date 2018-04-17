@@ -1,3 +1,3 @@
 git add --all
-git commit -m "circle module recommit"
+git commit -m "square module commit"
 git push -u origin master
