@@ -11,10 +11,13 @@ function start(res) {
 }
 
 function hello(res) {
-    sleep(20000);//20초
+    //sleep(20000);//20초
+    setTimeout(function () {//기다리는중에도 접근이 가능함
+
     res.writeHead(200,{'Content-Type' : 'text/html'});
     res.write('Hello, hello!');
     res.end();
+    }, 20000);
 }
 
 
